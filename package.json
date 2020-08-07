@@ -1,0 +1,15 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "Logging module",
+  "main": "index.js",
+  "author": "Damanbir Sahi",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnapClose/Toolbox.git#logger"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
