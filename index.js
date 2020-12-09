@@ -44,10 +44,7 @@ function log(log) {
     return;
 
   let prefix = level.color(`[${level.name}]`);
-  let output = '';
-  if (!Array.isArray(message) && message instanceof String) message = [message];
-  if (message) output = message.join(' ');
-  if (output) console.log(`${prefix} ${output}`);
+  console.log(prefix, ...message);
 
   // Save logs
 }
